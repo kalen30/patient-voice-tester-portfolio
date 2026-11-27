@@ -1,0 +1,20 @@
+# Local Python environment
+.venv/
+.venv-check/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# macOS files
+.DS_Store
+
+# Local call recordings and session reports
+/recordings/
+/transcripts/
